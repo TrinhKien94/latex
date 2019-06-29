@@ -1,0 +1,103 @@
+%%18:25:26 27/6/2017 -VieTeX creates E:\tex\book-mau\mau-dethi33a\vd16-1015.tex
+% Tệp mẫu làm đề thi trắc nghiệm dựa vào gói lệnh lamdethi.sty
+% Tác giả: Nguyên Hữu Điển
+% Khoa Toán Cơ Tin học, ĐHKHTN HN, ĐHQGHN
+% 334, Nguyễn Trãi, Thanh Xuân, Hà Nội
+% huudien@vnu.edu.vn
+% Ngày 26/12/2009
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{xstring}
+\usepackage{mathrsfs}
+\usepackage{tikz}
+\usetikzlibrary{calc,intersections}
+\usetikzlibrary{arrows}
+\usepackage{tkz-euclide}
+\usepackage{tkz-tab}
+\usepackage{tabvar}
+\usepackage{tkz-base}
+\usetkzobj{all}
+\usepackage[utf8]{vietnam}
+% \usepackage[T1]{vntext}
+\usepackage{longtable}%
+\usepackage[colorlinks,hyperindex,plainpages=false,unicode]{hyperref}
+\usepackage{calc}
+\usepackage{mathpazo}
+\usepackage{enumerate} 
+\usepackage{cases}
+\voffset=-3cm
+\textheight 25truecm 
+\textwidth 18truecm 
+% \usepackage[paperwidth=16truecm,paperheight=24truecm]{geometry}
+% \textheight 19.5truecm %%16.2truecm 
+% \textwidth 12 truecm 
+\parskip 3pt
+\headsep=12pt
+\usepackage[baitap]{dethi}
+
+\tentruong{SỞ GIÁO DỤC ĐÀO TẠO HẢI PHÒNG}
+\tentruong{BỘ GIÁO DỤC VÀ ĐÀO TẠO}
+\tenkhoa{ĐỀ THAM KHẢO}
+\loaidethi{(Đề gồm  0\pageref{dbPage} trang)}
+\tenkythi{KỲ THI TRUNG HỌC PHỔ THÔNG QUỐC GIA 2017}
+\tenmonhoc{Bài thi: TOÁN}
+\trangcuoi{dbPage}
+\madethi{100}
+\tieudeduoi{Môn Toán}
+\thoigian{\underline{Thời gian làm bài: 90 phút, không kể thời gian phát đề}}   
+\khoanhd{\cboxv}{}
+\daungoac{\cboxx}{}
+\chuphuongan{\small\bfseries\Alph}
+\mauchu{blue}
+\PSNrandseed{\time}
+\parindent 10pt
+\graphicspath{{hinh/}{temp/}}
+% \nguondetrue
+\duongkefalse
+\usepackage{nonfloat}
+\setlength{\baselineskip}{12truept}
+\begin{document}
+\loadallproblems[101]{1984aime-cauhoi-tuluan}
+% \loadrandomproblems[101]{3}{1984aime-cauhoi-tuluan}
+\nohovaten{}
+\lamtieude
+\indebai
+\vspace*{2cm}
+\begin{enumerate}[]
+\foreachproblem[101]{\item\causo\thisproblem}
+\end{enumerate}
+\label{dbPage}
+\newpage
+\setcounter{page}{1}
+\loaidethi{(Lời giải gồm  \pageref{dbdaPage} trang)}
+\trangcuoi{dbdaPage}
+\lamtieude
+\indebailoigiai
+\begin{center}
+{\bf ĐỀ BÀI VÀ LỜI GIẢI }
+\end{center}
+\begin{enumerate}[]
+\foreachproblem[101]{\item\causo\thisproblem}
+\end{enumerate}
+\label{dbdaPage}
+
+\newpage
+\setcounter{page}{1}
+\loaidethi{(Lời giải gồm  \pageref{lgPage} trang)}
+\trangcuoi{lgPage}
+\lamtieude
+\indapanloigiai
+\begin{center}
+{\bf LỜI GIẢI }
+\end{center}
+\begin{enumerate}[]
+\foreachproblem[101]{\item\causo\thisproblem}
+\end{enumerate}
+\label{lgPage}
+\end{document}
+
+https://www.overleaf.com/read/wvmwpsjfvpwk
+%%16:11:47 26/6/2019Last Modification of contents
